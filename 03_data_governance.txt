@@ -1,0 +1,14 @@
+Data Governance and Access Control
+
+Data governance defines how an organization manages data quality, security, ownership, and appropriate use. A practical governance program identifies data owners, documents sensitive fields, defines retention requirements, and reviews access regularly.
+
+Access should follow the principle of least privilege: each user or application should receive only the permissions required for its work. Role-based access control can group permissions by job responsibility.
+
+Sensitive data should be protected through appropriate controls, such as masking policies, restricted views, and auditing. Teams should avoid placing secrets, passwords, or private credentials inside documents used by a retrieval-augmented generation application.
+
+A useful governance review asks:
+- Who owns the dataset?
+- Which roles can read or modify it?
+- Does it contain personal or confidential information?
+- How long should the data be retained?
+- How can access and changes be audited?

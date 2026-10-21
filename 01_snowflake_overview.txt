@@ -1,0 +1,9 @@
+Snowflake Data Platform Overview
+
+Snowflake is a cloud data platform used to store, process, and analyze data. Its architecture separates storage and compute, allowing compute resources to scale independently from the underlying data storage.
+
+A virtual warehouse provides compute resources for SQL queries and data processing. Warehouses can be suspended when not in use and resumed when needed. Auto-suspend can help reduce idle compute costs.
+
+A database contains schemas, and schemas contain objects such as tables, views, stages, and other database objects. Roles and grants control which users can access these objects.
+
+Example: A team might store customer transactions in a table named SALES_TRANSACTIONS and create a view that exposes only approved columns to analysts.
